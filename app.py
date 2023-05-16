@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 
 def scrape_conference_guidelines(conference_name):
